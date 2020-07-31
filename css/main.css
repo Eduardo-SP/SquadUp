@@ -4,13 +4,29 @@
     margin: 0 auto;
     overflow: auto;
 }
+.full-width-assembly {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.half-width {
+    width: 500px;
+    float: left;
+}
+.quarter-width {
+  width: 298px;
+  float: left;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+}
 /* Navbar container */
 .navbar {
   overflow: auto;
   background-color: black;
   font-family: 'Roboto Mono', monospace;
   text-align: center;
-  margin-bottom: 125px;
 }
 #links
 {
@@ -84,13 +100,87 @@
 
 /* Body */
 
-img {
+.half-width img {
 	height: 400px;
-	margin: 30px;
+	margin: 35px;
 	float: left;
 	align-content: center;
 	border: 12px solid #ffffff;
 }
-body {
-	background: #11002a;
+#podcastselect {
+	background: #3f4957;
+	padding-bottom: 150px;
+	padding-top: 50px;
+
 }
+
+#podcastselect img {
+    height: 400px;
+  margin: 35px;
+  float: left;
+  align-content: center;
+  border: 12px solid #ffffff;
+
+}
+
+/* Squad Up */
+.squad-up
+{
+  background: #11002a;
+  padding-bottom: 130px;
+}
+
+#squadimg {
+  padding-top: 50px;
+
+}
+
+#squadtext {
+  padding-top: 20px;
+  color: white;
+  font-family: 'Recursive', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+
+}
+
+
+/* assembly required */
+.assembly-required
+{
+  background: #aa4a56;
+  padding-bottom: 130px;
+}
+#assemblyimg {
+  padding-top: 50px;
+}
+
+#icons img {
+  height: 75px; 
+  width: 227px;
+  margin: 10px;
+}
+
+/* hosts */
+
+.quarter-width img{
+  width: 175px;
+  height: 175px;
+  margin-top:  25PX;
+  border: 7px solid #ffffff;
+}
+
+#host-section {
+  background: #124E78;
+  text-align: center;
+  font-family: 'Recursive', sans-serif;
+  color: black;
+  padding-bottom: 60px;
+}
+
+.quarter-width p {
+    padding-right: 10px;
+  padding-left: 10px;
+}
+
+
