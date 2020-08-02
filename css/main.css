@@ -99,6 +99,9 @@
 }
 
 /* Body */
+body {
+  background: black;
+}
 
 .half-width img {
 	height: 400px;
